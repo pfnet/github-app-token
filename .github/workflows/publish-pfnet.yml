@@ -14,6 +14,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: dylanvann/publish-github-action@1005b5a38dcda89163fff63cfbf798434679c53d
+      - uses: dylanvann/publish-github-action@973d5c2eec5df00513bb013e4424eaf04117ebd1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
